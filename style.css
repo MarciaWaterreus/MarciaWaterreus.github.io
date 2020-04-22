@@ -1,0 +1,192 @@
+body {
+    font-size: 16px;
+    max-width: 1920px;
+}
+
+.top {
+    padding: 10px;
+}
+
+.top,
+.sidebar,
+.top-title {
+    background-color: #0F4955;
+    /* Petrol blue */
+    color: white;
+}
+
+.top-title {
+    font-family: 'Rochester', cursive;
+    font-size: 4em;
+    text-transform: capitalize;
+    letter-spacing: 0.0625em;
+}
+
+p,
+ul,
+table {
+    font-family: 'Avant Garde', Avantgarde, 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
+}
+
+body,
+.top,
+.sidebar,
+h1,
+.top-title,
+.p-center {
+    text-align: center;
+}
+
+.left {
+    text-align: left;
+}
+
+h1,
+h2 {
+    font-family: 'Arima Madurai', cursive;
+    padding: 10px;
+}
+
+.top-menu {
+    font-size: 1.1em;
+}
+
+.uppercase,
+h1,
+.top-menu {
+    text-transform: uppercase;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.bold-900 {
+    font-weight: 900;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.no-list-style {
+    list-style-type: none;
+    margin: 0;
+    padding: 10;
+    overflow: hidden;
+}
+
+.top-menu li {
+    float: left;
+}
+
+.top-menu li,
+.sidebar-list li {
+    display: block;
+    padding: 5px;
+}
+
+h1,
+.sidenav,
+top-menu {
+    border: 2px solid;
+    border-color: #0F4955;
+}
+
+h1,
+table,
+.sidenav,
+.top-menu,
+.sidebar-list {
+    background-color: #D4F2F8;
+    /* Light blue */
+}
+
+.sidebar {
+    border-color: #20A0BA;
+    width: 90%;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+h1 {
+    width: auto;
+}
+
+table {
+    font-size: 0.875em;
+}
+
+
+/* The sidebar menu */
+
+.sidenav {
+    height: 97%;
+    /* Full-height: remove this if you want "auto" height */
+    width: 25%;
+    max-width: 480px;
+    position: fixed;
+    /* Fixed Sidebar */
+    z-index: 1;
+    /* Stay on top */
+    top: 3%;
+    /* Stay at the top */
+    left: 3%;
+    overflow-x: hidden;
+    /* Disable horizontal scroll */
+    overflow-y: auto;
+    /* Vertical scoll bar */
+    padding-top: 10px;
+}
+
+.sidenav-bottom {
+    padding-bottom: 400px;
+}
+
+
+/* Style page content */
+
+main {
+    margin-top: 5%;
+    padding: 0px 10px;
+}
+
+main,
+.top-menu,
+span.top-title,
+footer {
+    margin-left: 28%;
+    /* Same width as the sidebar + left position */
+}
+
+hr.top-title {
+    color: #20A0BA;
+    background-color: #20A0BA;
+    /* width: 50%; */
+    margin-left: 53%;
+    margin-right: 25%;
+    height: 2px;
+    border-width: 0;
+}
+
+.center,
+.top-title {
+    display: block;
+}
+
+body,
+.center {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.icon {
+    height: 50px;
+    width: 50px;
+}
+
+span.top-title {
+    width: auto;
+    height: auto;
+    padding: 10px;
+}
