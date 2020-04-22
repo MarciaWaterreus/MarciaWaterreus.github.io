@@ -190,3 +190,8 @@ span.top-title {
     height: auto;
     padding: 10px;
 }
+
+footer {
+    margin-top: 3em;
+    font-size: smaller;
+}
